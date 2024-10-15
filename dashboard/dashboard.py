@@ -6,7 +6,7 @@ import seaborn as sns
 from statsmodels.tsa.seasonal import seasonal_decompose
 
 # Dashboard
-st.title('PM2.5 Concentration Dashboard - Guanyuan Air Quality Analysis')
+st.title('Guanyuan Air Quality Analysis')
 
 # Load Data
 data = pd.read_csv('all_data.csv')
